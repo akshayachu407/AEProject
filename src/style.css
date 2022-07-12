@@ -2,7 +2,9 @@ body{
        margin: 0 0;
 }
 .grid{ 
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
    }
 div{
     color:rgb(88, 161, 224);
