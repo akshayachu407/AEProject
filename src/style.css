@@ -1,29 +1,29 @@
 body{
        margin: 0 0;
+       background-color: rgb(248, 218, 178);
 }
 .grid{ 
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
    }
-div{
+/* div{
     color:rgb(88, 161, 224);
-}
+} */
 .header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: crimson;
-    border-style: double;
-    font-size: 2ex;
+    /* border-style: double;
+    font-size: 2ex; */
     text-align: left;
 }
 .nnav{
-    border-style: double;
-    color: crimson;
-    font-size: 25px;
-    text-align: left;
+    background-color: #333;
+    padding: 14px 16px;
 }
 
 .nnav ul li a{
+    
     text-decoration: none;
 
     display: block;
@@ -36,13 +36,15 @@ background-color: whitesmoke;
 color: #333;
 }
 .nnav ul{
+    display: block;
     list-style-type: none;
     margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+ 
 }
 .nnav li{
+
     float: left;
 }
 .header ul li{
@@ -57,12 +59,12 @@ color: #333;
 .nav{
     width: 20%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-style:double ;
+    /* border-style:double ; */
   
 }
 .nav>div{
-
-  color: #000;
+    background-color: #333;
+  color: rgb(5, 5, 5);
     border-style: groove;
   
 }
@@ -76,20 +78,20 @@ color: #333;
 }
 .nav>div:hover {
    color:rgb(145, 114, 58);
-   background-color: rgba(196, 143, 29, 0.726);
+   background-color: rgba(255, 255, 255, 0.726);
    border-color: rgb(151, 122, 84);
 }
 .mainpage{
     background-color: rgb(252, 232, 207);
     width: 60%;
    
-    border-style:double ;
+    /* border-style:double ; */
 }
 .advertise{
    
     width: 20%;
 
-    border-style: double;
+    /* border-style: double; */
 }
 .flex{
     display: flex;
@@ -98,8 +100,8 @@ color: #333;
 }
 .footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: crimson;
+    color: rgb(0, 0, 0);
     text-align: right;
-   
-    border-style: double;
+   font-size: xx-large;
+    /* border-style: double; */
 }
