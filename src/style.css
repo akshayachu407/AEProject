@@ -72,14 +72,14 @@ color: #333;
     text-decoration: none;
 
     display: block;
-  color: rgb(19, 14, 14);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
 }
-.nav>div:hover {
-   color:rgb(145, 114, 58);
-   background-color: rgba(255, 255, 255, 0.726);
-   border-color: rgb(151, 122, 84);
+.nav div a:hover {
+   color:rgb(5, 5, 5);
+   background-color: rgba(255, 254, 254, 0.726);
+   border-color: rgb(36, 32, 27);
 }
 .mainpage{
     background-color: rgb(252, 232, 207);
