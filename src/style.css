@@ -2,7 +2,7 @@ body{
        margin: 0 0;
 }
 .grid{ 
-    position: relative;
+    display: flex;
    }
 div{
     color:rgb(88, 161, 224);
@@ -11,14 +11,43 @@ div{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: crimson;
     border-style: double;
+    font-size: 2ex;
+    text-align: left;
+}
+.nnav{
+    border-style: double;
+    color: crimson;
     font-size: 25px;
     text-align: left;
+}
+
+.nnav ul li a{
+    text-decoration: none;
+
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.nnav ul li a:hover{
+background-color: whitesmoke;
+color: #333;
+}
+.nnav ul{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nnav li{
+    float: left;
 }
 .header ul li{
     text-align: right;
     color: brown;
-    text-decoration-style:none;
-}
+  }
+
 .header ul{
     text-align: left;
     text-decoration: none;
@@ -29,16 +58,24 @@ div{
     border-style:double ;
   
 }
-.nav>div>div{
-    text-align: center;
-    justify-content: center;
-    height: 15%;
+.nav>div{
+
+  color: #000;
     border-style: groove;
+  
 }
-.nav>div>div:hover {
-   color:wheat;
-   background-color: rgb(49, 8, 8);
-   border-color: burlywood;
+.nav div a{
+    text-decoration: none;
+
+    display: block;
+  color: rgb(19, 14, 14);
+  text-align: center;
+  padding: 14px 16px;
+}
+.nav>div:hover {
+   color:rgb(145, 114, 58);
+   background-color: rgba(196, 143, 29, 0.726);
+   border-color: rgb(151, 122, 84);
 }
 .mainpage{
     background-color: rgb(252, 232, 207);
