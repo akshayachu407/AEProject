@@ -24,3 +24,8 @@ function newData(){
    console.log("getlat") ;
    
 }
+
+var list=document.getElementById("datastored");
+
+console.log(list);
+console.log(names);

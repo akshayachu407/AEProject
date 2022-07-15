@@ -98,17 +98,20 @@ color: #333;
     /* border-style: double; */
 }
 .flex{
+
     display: flex;
     height: 80%;
    
 }
 .footer{
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     text-align: right;
    font-size: xx-large;
     /* border-style: double; */
-}
+
+  }
 .formdesign{
     background-color: rgb(135, 226, 226);
 }
@@ -126,13 +129,7 @@ input[type=submit]:hover {
   background-color: #4de7ec;
 }
 
-/* input[type=text], select, textarea ,number{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  } */
+
   
   input[type=number],input[type=text]{
     width: 50%;
