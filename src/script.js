@@ -1,31 +1,13 @@
-
-
-
-function getValues(){
-    var names=document.getElementById('name');
-    var name= "akshay";
-    window.alert(name);
-    newValues();
-}
-
-function newValues(){
-    var name="thilak";
-    console.log(name);
-    setValues();
-}
-
-function setValues(){
-    var name="gayu";
-    console.log(name);
-    newData();
-}
-
-function newData(){
-   console.log("getlat") ;
-   
-}
-
-var list=document.getElementById("datastored");
+function newDisplay(){
+var list=document.getElementById("name");
 
 console.log(list);
-console.log(names);
+
+document.getElementById('display').innerText="new";
+}
+newFooter();
+
+
+function newFooter(){
+    document.getElementById("footer").innerHTML="hello Akshay";
+}
